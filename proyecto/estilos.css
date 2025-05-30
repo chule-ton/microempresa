@@ -1,0 +1,52 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18 px;
+  font-family: Arial, sans-serif;
+  background: #D4EFDF; /* fondo general como en la imagen */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+p {
+  font-size: 20px;
+}
+
+header, footer {
+  background: #7FB3D5;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  gap: 20px;
+}
+
+article {
+  background: #5499C7;
+  flex: 3;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+aside {
+  background: #2980B9;
+  color: white;
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  background: #5DADE2;
+  padding: 20px;
+}
